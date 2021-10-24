@@ -13,10 +13,14 @@
     margin-top: 5rem;
     align-items: center;
 }
-.header__container__profilePicture {
+.header__container__profilePicture img{
     margin-top: 2rem;
     margin-bottom: 2rem;
     animation: fadein .5s ease-in-out;
+    clip-path: circle(40%);
+
+}
+.header__container__profilePicture{
 
 }
 .header__container__MainContent{
@@ -29,6 +33,9 @@
 
 .wrapper{
     display:flex;
+}
+.wrapper i{
+    color:#fff;
 }
 .instagram{
     animation: fadein .5s ease-in-out;
